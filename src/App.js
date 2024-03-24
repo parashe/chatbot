@@ -10,12 +10,12 @@ function App() {
 
   return (
     <div className="App">
-  <div className="w-full h-screen flex flex-col items-center bg-[#064e3b] dark:bg-black">
+  <div className="backgroundcolor-container w-full h-screen flex flex-col items-center  dark:bg-black">
     <div className="background-container flex flex-col justify-center items-center h-full w-full">
       {/* Content of your app goes here */}
-      <h2 className="text-2xl  max-w-2xl  text-white font-black uppercase dark:text-white leading-relaxed" style={{ lineHeight: "1.2" }}>
-        Hello welcome to chatbot demo. Please click on messenger button to chat with our bot.
-      </h2>
+      <h2 className="text-2xl max-w-2xl  uppercase dark:text-white leading-relaxed bg-gradient-to-r from-red-400 via-green-600 to-blue-600  inline-block text-transparent bg-clip-text font-black " style={{ lineHeight: "1.2" }}>
+  Hello welcome to chatbot demo. Please click on messenger button to chat with our bot.
+</h2>
     </div>
     <div className="app-container">
       <div className="messenger-icon" onClick={toggleChatbot}>

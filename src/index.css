@@ -299,3 +299,8 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
   right: 20px; /* Adjust the distance from the right as needed */
   z-index: 1; /* Set a higher z-index for the messenger icon to ensure it appears above the app content */
 }
+
+.backgroundcolor-container{
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}

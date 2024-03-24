@@ -28,7 +28,7 @@ export const AmericanFoodOptions = (props) => {
       id: 5,
     },
   ];
-  return <Options options={options} title="American Food" {...props} />;
+  return <Options options={options} title=" Select  Food" {...props} />;
 };
 
 export const SouthAmericanFoodOptions = (props) => {
@@ -49,7 +49,7 @@ export const SouthAmericanFoodOptions = (props) => {
       id: 3,
     },
   ];
-  return <Options options={options} title="South American Food" {...props} />;
+  return <Options options={options} title=" Select  Food" {...props} />;
 };
 
 export const KoreanFoodOptions = (props) => {
@@ -75,7 +75,7 @@ export const KoreanFoodOptions = (props) => {
       id: 4,
     },
   ];
-  return <Options options={options} title="Korean Food" {...props} />;
+  return <Options options={options} title=" Select Food" {...props} />;
 };
 
 export const IndianFoodOptions = (props) => {
@@ -101,7 +101,7 @@ export const IndianFoodOptions = (props) => {
       id: 4,
     },
   ];
-  return <Options options={options} title="Indian Food" {...props} />;
+  return <Options options={options} title=" Select Food" {...props} />;
 };
 
 export const JapaneseFoodOptions = (props) => {
@@ -122,7 +122,7 @@ export const JapaneseFoodOptions = (props) => {
       id: 3,
     },
   ];
-  return <Options options={options} title="Japanese Food" {...props} />;
+  return <Options options={options} title=" Select  Food" {...props} />;
 };
 
 export const ChineseFoodOptions = (props) => {
@@ -143,7 +143,7 @@ export const ChineseFoodOptions = (props) => {
       id: 3,
     },
   ];
-  return <Options options={options} title="Chinese Food" {...props} />;
+  return <Options options={options} title=" Select  Food" {...props} />;
 };
 export const PortugueseFoodOptions = (props) => {
   const options = [
@@ -163,7 +163,7 @@ export const PortugueseFoodOptions = (props) => {
       id: 3,
     },
   ];
-  return <Options options={options} title="Portuguese Food" {...props} />;
+  return <Options options={options} title=" Select  Food" {...props} />;
 };
 
 export const SpanishFoodOptions = (props) => {
@@ -184,7 +184,7 @@ export const SpanishFoodOptions = (props) => {
       id: 3,
     },
   ];
-  return <Options options={options} title="Spanish Food" {...props} />;
+  return <Options options={options} title=" Select Food" {...props} />;
 };
 
 export const EnglishFoodOptions=(props)=>{
@@ -205,5 +205,5 @@ export const EnglishFoodOptions=(props)=>{
       id:3
     }
   ]
-  return <Options options={options} title="English Food" {...props} />
+  return <Options options={options} title=" Select Food" {...props} />
 }

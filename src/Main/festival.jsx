@@ -17,7 +17,7 @@ export const AmericanFestivals = (props) => {
     },
     // Add more American festivals as needed
   ];
-  return <Options options={options} title="American Festivals" {...props} />;
+  return <Options options={options} title=" Select Festivals" {...props} />;
 };
 
 export const SouthAmericanFestivals = (props) => {
@@ -34,7 +34,7 @@ export const SouthAmericanFestivals = (props) => {
     },
   ];
   return (
-    <Options options={options} title="South American Festivals" {...props} />
+    <Options options={options} title="  Select  Festivals" {...props} />
   );
 };
 
@@ -61,7 +61,7 @@ export const KoreanFestivalOptions = (props) => {
       id: 4,
     },
   ];
-  return <Options options={options} title="Korean Festivals" {...props} />;
+  return <Options options={options} title=" Select  Festivals" {...props} />;
 };
 
 export const SpanishFestivalOptions = (props) => {
@@ -77,7 +77,7 @@ export const SpanishFestivalOptions = (props) => {
       id: 2,
     },
   ];
-  return <Options options={options} title="Spanish Festivals" {...props} />;
+  return <Options options={options} title="  Select Festivals" {...props} />;
 };
 
 export const JapaneseFestivalOptions = (props) => {
@@ -93,7 +93,7 @@ export const JapaneseFestivalOptions = (props) => {
       id: 2,
     },
   ];
-  return <Options options={options} title="Japanese Festivals" {...props} />;
+  return <Options options={options} title=" Select  Festivals" {...props} />;
 };
 
 export const ChineseFestivalOptions = (props) => {
@@ -109,7 +109,7 @@ export const ChineseFestivalOptions = (props) => {
       id: 2,
     },
   ];
-  return <Options options={options} title="Chinese Festivals" {...props} />;
+  return <Options options={options} title=" Select  Festivals" {...props} />;
 };
 
 export const PortugueseFestivalOptions = (props) => {
@@ -125,7 +125,7 @@ export const PortugueseFestivalOptions = (props) => {
       id: 2,
     },
   ];
-  return <Options options={options} title="Portuguese Festivals" {...props} />;
+  return <Options options={options} title=" Select  Festivals" {...props} />;
 };
 
 export const IndianFestivalOptions = (props) => {
@@ -141,7 +141,7 @@ export const IndianFestivalOptions = (props) => {
       id: 2,
     },
   ];
-  return <Options options={options} title="Indian Festivals" {...props} />;
+  return <Options options={options} title=" Select  Festivals" {...props} />;
 };
 
 export const EnglishFestivalOptions = (props) => {
@@ -157,5 +157,5 @@ export const EnglishFestivalOptions = (props) => {
       id: 2,
     },
   ];
-  return <Options options={options} title="English Festivals" {...props} />;
+  return <Options options={options} title=" Select  Festivals" {...props} />;
 };
