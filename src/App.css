@@ -36,3 +36,64 @@
     transform: rotate(360deg);
   }
 }
+
+/* General Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Full-screen background with gradient animation */
+.background-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.gradient-overlay {
+  background: linear-gradient(45deg, #ff007c, #3d5afe, #00f260);
+  background-size: 400% 400%;
+  animation: gradientAnimation 10s ease infinite;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+/* Messenger Icon Animation */
+.messenger-icon {
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.messenger-icon:hover {
+  transform: scale(1.1);
+}
+.messenger-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: pulse 1.5s infinite;
+}
+
+/* Chatbot Container Styling */
+.chatbot-container {
+  border: 1px solid #ddd;
+  transform: translateY(0);
+  transition: transform 0.3s ease;
+}
+.chatbot-container.hidden {
+  transform: translateY(100%);
+}
+
+/* Animations */
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
